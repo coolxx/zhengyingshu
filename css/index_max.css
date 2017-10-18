@@ -1,0 +1,306 @@
+*{margin: 0;padding: 0;font-family: "微软雅黑"}
+body,html{
+	width: 720px;
+	margin: 0 auto;
+	color: #333333;
+}
+li{ list-style:none; }
+a{ text-decoration:none; }
+img{ vertical-align:top; }
+input{outline: none}
+header{
+	width: 720px;
+	height: 50px;
+	overflow: hidden;
+	background: #1b1b1b;
+}
+header img{
+	float: left;
+	margin-top: 4px;
+	margin-left: 10px;
+	width: 79px;
+}
+header h1{
+	color: #fff;
+	float: left;
+	margin-top: 20px;
+	margin-left: 10px;
+	font-size: 18px;
+}
+header p{
+	font-size: 15px;
+	height: 100%;
+	padding-left: 35px;
+	color: #fff;
+	font-weight: bold;
+	float: right;
+	margin-right: 8px;
+	line-height: 50px;
+	background: url(../images/phone.png) no-repeat 0 center;
+}
+.banner{
+    height:552px;
+    position: relative;
+    text-align: center;
+}
+.banner img{
+    display: block;
+}
+.banner .p1{
+    width: 720px;
+    font-size:24px;
+    line-height:24px;
+    position: absolute;
+    top:270px;
+    color: #fff;
+}
+.banner .p2{
+    width: 720px;
+    font-size:16px;
+    line-height:16px;
+    position: absolute;
+    top:310px;
+    color: #fff;
+}
+.banner .p2 span{
+    color: #ffff00;
+}
+.zg-main1{
+    height:810px;
+    background: #fcfcfc;
+    overflow: hidden;
+}
+.m1-cont{
+    width: 700px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.m1-cont li{
+    float: left;
+    width: 350px;
+    height: 393px;
+    background-position: center 14px;
+    background-repeat: no-repeat;
+}
+.m1-show{
+    width: 275px;
+    height: 296px;
+    margin: 80px auto 0;
+    background: #f4f3f2;
+    overflow: hidden;
+    position: relative;
+}
+.m1-show img{
+    display: block;
+    margin: 22px auto 0;
+}
+.m1-show > span{
+    width: 275px;
+    height:1px;
+    display: block;
+    background: #fff;
+    position: absolute;
+    bottom:50px;
+}
+.m1-show p{
+    width: 275px;
+    height: 50px;
+    position: absolute;
+    bottom:0;
+    background: #0e1a31;
+    text-align: center;
+    line-height:50px;
+    color: #fff;
+
+}
+.m1-show p strong{
+    display: inline-block;
+    font-size:14px;
+    line-height:18px;
+    vertical-align: middle;
+    text-align: left;
+    font-weight:normal;
+}
+.m1-show p span{
+    color: #fcff00;
+}
+.zg-main2{
+    height: 844px;
+    overflow: hidden;
+    background: url("../images/main2.jpg") no-repeat center;
+}
+.zg-main2 p{
+    font-size:20px;
+    line-height:20px;
+    color: #ffffff;
+    padding-left:25px;
+    margin-top:20px;
+}
+.zg-main2 p:first-child{
+    margin-top:130px;
+}
+.zg-main2 p:nth-child(5){
+    text-indent: 2em;
+}
+.zg-main2 h2{
+    font-size:20px;
+    line-height:20px;
+    padding-left:25px;
+    margin-top:26px;
+    color: #fff000;
+}
+.zg-main2 a{
+    display:block;
+    text-align: center;
+    margin-top:58px;
+}
+.zg-main2 a img{
+    width:336px;
+}
+.zg-main3{
+    overflow: hidden;
+}
+.zg-main3 li{
+    float: left;
+    margin-left:10px;
+    width:227px;
+    height: 207px;
+}
+.zg-main3 li > img{
+    display: block;
+    width: 227px;
+}
+.zg-main3 li div{
+    width: 227px;
+    height: 67px;
+    background: #e5e5e5;
+    margin-top:8px;
+    overflow: hidden;
+}
+.zg-main3 .p1{
+    font-size:14px;
+    text-align: center;
+    margin-top:8px;
+}
+.zg-main3 .p2{
+    overflow: hidden;
+    margin-top:4px;
+}
+.zg-main3 .p2 span{
+    height:28px;
+    float: left;
+    padding-left:10px;
+    font-size:24px;
+    font-weight:bold;
+    color: #e92432;
+}
+.zg-main3 .p2 a{
+    width:87px;
+    height:28px;
+    line-height:28px;
+    float: right;
+    margin-right: 8px;
+    background: #e92432;
+    color: #fff;
+    font-size:16px;
+    text-align: center;
+    border-radius: 14px;
+}
+.zg-main4{
+    height:320px;
+    margin-top:35px;
+}
+.zg-main4 li > p{
+    width:227px;
+    height:243px;
+    box-sizing: border-box;
+    border:1px solid #e5e5e5;
+    text-align: center;
+    line-height:243px;
+}
+.zg-main4 li > p img{
+    display: inline-block;
+    vertical-align: middle;
+    height:208px;
+}
+.zg-main5{
+    overflow: hidden;
+    margin-top:50px;
+    text-align: center;
+}
+.zg-main5 h2 img{
+    width:561px;
+}
+.m5-cont{
+    width: 700px;
+    height: 408px;
+    background: #e92432;
+    margin: 38px auto 90px;
+    overflow: hidden;
+}
+.m5-qr{
+    margin-left:-11px;
+    margin-top:25px;
+    overflow: hidden;
+}
+.m5-qr li{
+    float: left;
+    width:207px;
+    margin-left:25px;
+}
+.m5-qr li img{
+    display: block;
+}
+.m5-qr li p{
+    font-size:20px;
+    color: #ffffff;
+    line-height:30px;
+    margin-top:12px;
+}
+.m5-qr li p span{
+    font-weight: bold;
+    color: #fff000;
+}
+.m5-cont > p{
+    font-size:24px;
+    color: #e92432;
+    width: 678px;
+    height: 68px;
+    margin: 10px auto 0;
+    background: #fff;
+    line-height:68px;
+}
+.fix{
+    width: 720px;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    height: 68px;
+
+}
+.fix a{
+    display: block;
+    flex:1;
+    height: 100%;
+    text-align: center;
+    line-height: 68px;
+    font-size: 24px;
+    color: #fff
+}
+.fix1{
+    background: url(../images/fix1.png) no-repeat 15% center #000;
+}
+.fix2{
+    background: url(../images/fix2.png) no-repeat 15% center #e62929;
+}
+.zixun{
+    position: fixed;
+    right:2px;
+    top:45%;
+}
+.zixun a{
+    display: block;
+}
+.zixun a img{
+    width:97px;
+}

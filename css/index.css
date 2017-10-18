@@ -1,0 +1,316 @@
+*{margin: 0;padding: 0;font-family: "微软雅黑" !important;}
+html{font-size: 20px;}
+li{ list-style:none; }
+a{ text-decoration:none; }
+img{ vertical-align:top; }
+input{outline: none}
+input[type="button"], input[type="submit"], input[type="reset"] {-webkit-appearance: none;}
+header{
+	width: 18.0rem;
+	height: 1.25rem;
+	overflow: hidden;
+	background: #1b1b1b;
+}
+header img{
+	float: left;
+	margin-top: 0.1rem;
+	margin-left: 0.25rem;
+	width: 1.975rem;
+}
+header h1{
+	color: #fff;
+	float: left;
+	margin-top: 0.5rem;
+	margin-left: 0.25rem;
+	font-size: 0.45rem;
+	font-weight: bold;
+}
+header p{
+	font-size: 0.45rem;
+	height: 100%;
+	padding-left: 0.875rem;
+	color: #fff;
+	font-weight: bold;
+	float: right;
+	margin-right: 0.2rem;
+	line-height: 1.25rem;
+	background: url(../images/phone.png) no-repeat 0 center;
+	background-size: 0.55rem 0.65rem;
+	padding-top: 0.125rem
+}
+.banner{
+	height:13.8rem;
+	position: relative;
+	text-align: center;
+}
+.banner img{
+	display: block;
+	width: 18.0rem;
+}
+.banner .p1{
+	width: 18.0rem;
+	font-size:0.6rem;
+	line-height:0.6rem;
+	position: absolute;
+	top:6.75rem;
+	color: #fff;
+}
+.banner .p2{
+	width: 18.0rem;
+	font-size:0.4rem;
+	line-height:0.4rem;
+	position: absolute;
+	top:7.75rem;
+	color: #fff;
+}
+.banner .p2 span{
+	color: #ffff00;
+}
+.zg-main1{
+	height:20.25rem;
+	background: #fcfcfc;
+	overflow: hidden;
+}
+.m1-cont{
+	width: 17.5rem;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.m1-cont li{
+	float: left;
+	width: 8.75rem;
+	height: 9.825rem;
+	background-position: center 0.35rem;
+	background-repeat: no-repeat;
+	background-size: 7.275rem
+}
+.m1-show{
+	width: 6.875rem;
+	height: 7.4rem;
+	margin: 2.0rem auto 0;
+	background: #f4f3f2;
+	overflow: hidden;
+	position: relative;
+}
+.m1-show img{
+	display: block;
+	margin: 0.55rem auto 0;
+	width: 6.875rem
+}
+.m1-show > span{
+	width: 6.875rem;
+	height:1px;
+	display: block;
+	background: #fff;
+	position: absolute;
+	bottom:1.25rem;
+}
+.m1-show p{
+	width: 6.875rem;
+	height: 1.25rem;
+	position: absolute;
+	bottom:0;
+	background: #0e1a31;
+	text-align: center;
+	line-height:1.25rem;
+	color: #fff;
+
+}
+.m1-show p strong{
+	display: inline-block;
+	font-size:0.35rem;
+	line-height:0.45rem;
+	vertical-align: middle;
+	text-align: left;
+	font-weight:normal;
+}
+.m1-show p span{
+	color: #fcff00;
+}
+.zg-main2{
+	height: 21.1rem;
+	overflow: hidden;
+	background: url("../images/main2.jpg") no-repeat center;
+	background-size: 18.0rem 21.0rem
+}
+.zg-main2 p{
+	font-size:0.5rem;
+	line-height:0.5rem;
+	color: #ffffff;
+	padding-left:0.625rem;
+	margin-top:0.5rem;
+}
+.zg-main2 p:first-child{
+	margin-top:3.25rem;
+}
+.zg-main2 p:nth-child(5){
+	text-indent: 2em;
+}
+.zg-main2 h2{
+	font-size:0.5rem;
+	line-height:0.5rem;
+	padding-left:0.625rem;
+	margin-top:0.65rem;
+	color: #fff000;
+}
+.zg-main2 a{
+	display:block;
+	text-align: center;
+	margin-top:1.45rem;
+}
+.zg-main2 a img{
+	width:8.4rem;
+}
+.zg-main3{
+	overflow: hidden;
+}
+.zg-main3 li{
+	float: left;
+	margin-left:0.25rem;
+	width:5.675rem;
+	height: 5.175rem;
+}
+.zg-main3 li > img{
+	display: block;
+	width: 5.675rem;
+}
+.zg-main3 li div{
+	width: 5.675rem;
+	height: 1.675rem;
+	background: #e5e5e5;
+	margin-top:0.2rem;
+	overflow: hidden;
+}
+.zg-main3 .p1{
+	font-size:0.35rem;
+	text-align: center;
+	margin-top:0.2rem;
+}
+.zg-main3 .p2{
+	overflow: hidden;
+	margin-top:0.1rem;
+}
+.zg-main3 .p2 span{
+	height:0.7rem;
+	float: left;
+	padding-left:0.25rem;
+	font-size:0.6rem;
+	font-weight:bold;
+	color: #e92432;
+}
+.zg-main3 .p2 a{
+	width:2.175rem;
+	height:0.7rem;
+	line-height:0.7rem;
+	float: right;
+	margin-right: 0.2rem;
+	background: #e92432;
+	color: #fff;
+	font-size:0.4rem;
+	text-align: center;
+	border-radius: 0.35rem;
+}
+.zg-main4{
+	height:8.0rem;
+	margin-top:0.875rem;
+}
+.zg-main4 li > p{
+	width:5.675rem;
+	height:6.075rem;
+	box-sizing: border-box;
+	border:1px solid #e5e5e5;
+	text-align: center;
+	line-height:6.075rem;
+}
+.zg-main4 li > p img{
+	display: inline-block;
+	vertical-align: middle;
+	height:5.2rem;
+}
+.zg-main5{
+	overflow: hidden;
+	margin-top:1.25rem;
+}
+.zg-main5 h2 img{
+	width: 14.025rem;
+	display: block;
+	margin: 0 auto
+}
+.m5-cont{
+	width: 17.5rem;
+	height: 10.2rem;
+	background: #e92432;
+	margin: 0.95rem auto 2.25rem;
+	overflow: hidden;
+}
+.m5-qr{
+	margin-left:-0.275rem;
+	margin-top:0.625rem;
+	overflow: hidden;
+	text-align: center;
+}
+.m5-qr li{
+	float: left;
+	width:5.175rem;
+	margin-left:0.625rem;
+}
+.m5-qr li img{
+	display: block;
+	width: 5.2rem
+}
+.m5-qr li p{
+	font-size:0.5rem;
+	color: #ffffff;
+	line-height:0.75rem;
+	margin-top:0.3rem;
+}
+.m5-qr li p span{
+	font-weight: bold;
+	color: #fff000;
+}
+.m5-cont > p{
+	font-size:0.6rem;
+	color: #e92432;
+	width: 16.95rem;
+	height: 1.7rem;
+	margin: 0.25rem auto 0;
+	background: #fff;
+	line-height:1.7rem;
+	text-align: center;
+}
+.fix{
+	width: 18.0rem;
+	display: flex;
+	position: fixed;
+	bottom: 0;
+	height: 1.7rem;
+
+}
+.fix a{
+	display: block;
+	flex:1;
+	height: 100%;
+	text-align: center;
+	line-height: 1.7rem;
+	font-size: 0.6rem;
+	color: #fff
+}
+.fix1{
+	background: url(../images/fix1.png) no-repeat 15% center #000;
+	background-size: 1.15rem 1.125rem
+}
+.fix2{
+	background: url(../images/fix2.png) no-repeat 15% center #e62929;
+	background-size: 1.525rem 1.2rem
+}
+.zixun{
+	position: fixed;
+	right:2px;
+	top:45%;
+}
+.zixun a{
+	display: block;
+}
+.zixun a img{
+	width:2.425rem;
+}
