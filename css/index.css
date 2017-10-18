@@ -182,10 +182,10 @@ header p{
 	overflow: hidden;
 }
 .zg-main3 .p1{
-	font-size:0.30rem;
+	font-size:0.35rem;
 	text-align: center;
 	margin-top:0.2rem;
-	letter-spacing:0
+	letter-spacing:-0.01rem
 }
 .zg-main3 .p2{
 	overflow: hidden;
